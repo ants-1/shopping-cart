@@ -8,7 +8,6 @@ function Navbar() {
       <div className="flex gap-10 ml-5">
         <div className="cursor-pointer hover:text-yellow-600">Home</div>
         <div className="cursor-pointer hover:text-yellow-600">Shop</div>
-        <div className="cursor-pointer hover:text-yellow-600">About</div>
         <div className="cursor-pointer hover:text-yellow-600">Contact</div>
       </div>
       <div className="flex gap-5">

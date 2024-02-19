@@ -3,9 +3,9 @@ import ProductList from "./ProductList";
 function FilterBar() {
   return (
     <>
-      <div className="flex items-center justify-around p-5 bg-orange-50 h-20">
-        <div className="flex">
-          <div className="mr-10">
+      <div className="flex flex-col-reverse sm:flex-row items-center justify-around p-5 bg-orange-50">
+        <div className="flex gap-9 mt-5 sm:mt-0">
+          <div>
             <img src="" alt="" />
             <p>Filter</p>
           </div>
