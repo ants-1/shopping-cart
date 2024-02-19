@@ -1,21 +1,11 @@
-import Navbar from './components/Navbar'
-import Banner from './components/Banner'
-import BrowseRange from './components/BrowseRange'
-import RecentProducts from './components/RecentProducts'
-import Footer from './components/Footer'
+// import ShopPage from './components/ShopPage'
+import HomePage from './components/HomePage'
 import './App.css'
 
-//https://www.youtube.com/watch?v=TPACABQTHvM
-
 function App() {
-
   return (
     <>
-      <Navbar/>
-      <Banner />
-      <BrowseRange />
-      <RecentProducts />
-      <Footer />
+      <HomePage />
     </>
   )
 }
