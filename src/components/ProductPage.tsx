@@ -11,7 +11,6 @@ function ProductPage() {
         <span className="p-2">{" > "}</span>
         <p className="text-gray-400 p-2">Shop</p>
         <span className="p-2">{" > "}</span>
-        <span className="border border-black"></span>
         <p className="p-2">Product Name</p>
       </div>
       <div className="flex border-b-4 py-10 px-20 justify-center">
@@ -51,8 +50,7 @@ function ProductPage() {
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-            mattis.
+            consectetur adipiscing elit.
           </p>
           <p className="text-gray-400">Size</p>
           <div className="flex gap-5">

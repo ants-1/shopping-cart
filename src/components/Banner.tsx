@@ -1,17 +1,27 @@
-function Banner() {
+interface BannerProps {
+  name: string;
+}
+
+function Banner({ name }: BannerProps): JSX.Element {
   return (
-    <div className="relative">
-      <img src="/banner.jpeg" className="h-[35rem] object-cover w-full z-0 opacity-60" alt="Banner" />
-      <div className="bg-orange-50 w-[30rem] h-80 z-10 absolute top-48 right-14 p-5 pt-8 pr-10">
-        <p className="tracking-wide mb-2">New Arrival</p>
-        <h2 className="text-4xl font-bold text-yellow-600 mb-2">Discover Our New Collection</h2>
-        <p className="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis.
-        </p>
-        <button className="h-20 w-40 bg-yellow-600 hover:bg-yellow-700 text-white font-bold">BUY NOW</button>
+    <>
+      <div>
+        <div className="relative h-72 flex-col flex justify-center text-black">
+          <img
+            src="/store-banner-image.png"
+            className="absolute inset-0 h-full w-full object-cover z-0 opacity-50"
+            alt="Shop Banner"
+          />
+          <div className="relative z-10">
+            <h2 className="font-semibold text-6xl text-center">{name}</h2>
+            <div className="font-semibold text-lg text-center mt-5">
+              <a href="#">Home</a>
+              <span>{" >"} {name}</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

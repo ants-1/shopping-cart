@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Banner from "./Banner";
+import HomeBanner from "./HomeBanner";
 import BrowseRange from "./BrowseRange";
 import RecentProducts from "./RecentProducts";
 import Footer from "./Footer";
@@ -8,7 +8,7 @@ function HomePage() {
     return (
         <>
             <Navbar />
-            <Banner />
+            <HomeBanner />
             <BrowseRange />
             <RecentProducts />
             <Footer />
