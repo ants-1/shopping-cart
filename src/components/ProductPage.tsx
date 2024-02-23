@@ -1,11 +1,8 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
 import ProductList from "./ProductList";
 
 function ProductPage() {
   return (
     <>
-      <Navbar />
       <div className="flex gap-6 bg-orange-50 px-20 py-8">
         <p className="text-gray-400 p-2">Home</p>
         <span className="p-2">{" > "}</span>
@@ -96,7 +93,6 @@ function ProductPage() {
         <h3 className="text-3xl font-bold">Related Products</h3>
         <ProductList />
       </div>
-      <Footer />
     </>
   );
 }

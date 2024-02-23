@@ -1,11 +1,8 @@
-import Navbar from './Navbar'
-import Footer from './Footer'
 import FilterBar from './FilterBar'
 
 function Shop() {
     return (
       <>
-        <Navbar />
         <div>
           <div className="relative h-72 flex-col flex justify-center text-black">
             <img
@@ -23,7 +20,6 @@ function Shop() {
           </div>
         </div>
         <FilterBar />
-        <Footer />
       </>
     )
   }

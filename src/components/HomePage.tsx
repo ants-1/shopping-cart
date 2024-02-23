@@ -1,19 +1,15 @@
-import Navbar from "./Navbar";
 import HomeBanner from "./HomeBanner";
 import BrowseRange from "./BrowseRange";
 import RecentProducts from "./RecentProducts";
-import Footer from "./Footer";
 
 function HomePage() {
-    return (
-        <>
-            <Navbar />
-            <HomeBanner />
-            <BrowseRange />
-            <RecentProducts />
-            <Footer />
-        </>
-    );
-};
+  return (
+    <>
+      <HomeBanner />
+      <BrowseRange />
+      <RecentProducts />
+    </>
+  );
+}
 
 export default HomePage;

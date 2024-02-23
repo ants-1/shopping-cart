@@ -1,5 +1,3 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
 import Banner from "./Banner";
 
 function Cart() {
@@ -7,7 +5,6 @@ function Cart() {
 
   return (
     <>
-      <Navbar />
       <Banner name={bannerName} />
       <div className="h-screen pt-10">
         <h1 className="mb-10 text-center text-2xl font-bold">Cart Items</h1>
@@ -72,7 +69,6 @@ function Cart() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
