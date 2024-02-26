@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Login() {
   return (
     <section className="bg-gray-50">
@@ -66,16 +68,15 @@ function Login() {
                 type="submit"
                 className="w-full text-white bg-yellow-600 hover:bg-yellow-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
               >
-                Sign in
+                Login
               </button>
               <p className="text-sm font-light text-gray-500">
                 Don’t have an account yet?{" "}
-                <a
-                  href="#"
+                <Link to="/signup"
                   className="font-medium text-primary-600 hover:underline"
                 >
                   Sign up
-                </a>
+                </Link>
               </p>
             </form>
           </div>
