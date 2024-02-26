@@ -14,10 +14,6 @@ function Banner({ name }: BannerProps): JSX.Element {
           />
           <div className="relative z-10">
             <h2 className="font-semibold text-6xl text-center">{name}</h2>
-            <div className="font-semibold text-lg text-center mt-5">
-              <a href="#">Home</a>
-              <span>{" >"} {name}</span>
-            </div>
           </div>
         </div>
       </div>

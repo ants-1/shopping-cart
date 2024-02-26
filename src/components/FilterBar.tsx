@@ -55,13 +55,13 @@ function FilterBar() {
           </form>
         </div>
       </div>
-      <div className="flex flex-col items-center m-10">
+      <div className="flex flex-col items-center p-5">
         <ProductList />
-        <div className="flex gap-6 mt-10 mb-5">
-            <button className="h-10 w-10 rounded-md hover:text-white bg-orange-50 hover:bg-yellow-600">1</button>
-            <button className="h-10 w-10 rounded-md hover:text-white bg-orange-50 hover:bg-yellow-600">2</button>
-            <button className="h-10 w-10 rounded-md hover:text-white bg-orange-50 hover:bg-yellow-600">3</button>
-            <button className="h-10 w-10 rounded-md hover:text-white bg-orange-50 hover:bg-yellow-600">4</button>
+        <div className="flex gap-6 mt-5 pb-5">
+            <button className="h-10 w-10 rounded-md text-white bg-yellow-600 hover:bg-yellow-700">1</button>
+            <button className="h-10 w-10 rounded-md text-white bg-yellow-600 hover:bg-yellow-700">2</button>
+            <button className="h-10 w-10 rounded-md text-white bg-yellow-600 hover:bg-yellow-700">3</button>
+            <button className="h-10 w-10 rounded-md text-white bg-yellow-600 hover:bg-yellow-700">4</button>
         </div>
       </div>
     </>

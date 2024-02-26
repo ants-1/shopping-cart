@@ -1,11 +1,11 @@
 import Banner from "./Banner";
 
 function Checkout() {
-  const checkoutBanner: string = "Checkout";
+  const bannerName: string = "Checkout";
 
   return (
     <>
-      <Banner name={checkoutBanner} />
+      <Banner name={bannerName} />
       <div>
         <form action="">
           <div className="flex">

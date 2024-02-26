@@ -8,6 +8,7 @@ import Cart from './components/Cart'
 import Checkout from "./components/Checkout";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+import Contact from "./components/Contact";
 import "./App.css";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>

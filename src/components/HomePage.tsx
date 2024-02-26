@@ -6,8 +6,10 @@ function HomePage() {
   return (
     <>
       <HomeBanner />
-      <BrowseRange />
-      <RecentProducts />
+      <div className="bg-gray-50 py-10">
+        <BrowseRange />
+        <RecentProducts />
+      </div>
     </>
   );
 }

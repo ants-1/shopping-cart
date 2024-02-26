@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer className="px-20 mt-10 mb-5 border-t-2 pt-5">
+        <footer className="px-20 mb-5 border-t-2 pt-5">
             <div className="flex justify-between">
                 <div>
                     <h6>Odyssey.</h6>

@@ -1,6 +1,6 @@
 function BrowseRange() {
   return (
-    <div className="flex flex-col items-center mt-10">
+    <div className="flex flex-col items-center mt-10 mb-10">
       <div className="mb-10">
         <h3 className="text-center text-2xl font-bold mb-2">Browse Range</h3>
         <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

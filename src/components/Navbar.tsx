@@ -14,7 +14,9 @@ function Navbar() {
         <Link to="/shop">
           <div className="cursor-pointer hover:text-yellow-600">Shop</div>
         </Link>
-        <div className="cursor-pointer hover:text-yellow-600">Contact</div>
+        <Link to="/contact">
+          <div className="cursor-pointer hover:text-yellow-600">Contact</div>
+        </Link>
       </div>
       <div className="flex gap-5">
         <Link to="/login">
