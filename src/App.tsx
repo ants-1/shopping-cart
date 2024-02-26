@@ -6,6 +6,7 @@ import ShopPage from './components/ShopPage'
 import ProductPage from './components/ProductPage'
 import Cart from './components/Cart'
 import Checkout from "./components/Checkout";
+import Login from "./components/Login";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/product-page" element={<ProductPage />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
       </Router>

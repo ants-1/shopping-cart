@@ -17,11 +17,13 @@ function Navbar() {
         <div className="cursor-pointer hover:text-yellow-600">Contact</div>
       </div>
       <div className="flex gap-5">
-        <img
-          src="/signin-icon.png"
-          className="h-10 hover:cursor-pointer hover:border p-2 rounded-lg"
-          alt="Sign in icon"
-        />
+        <Link to="/login">
+          <img
+            src="/signin-icon.png"
+            className="h-10 hover:cursor-pointer hover:border p-2 rounded-lg"
+            alt="Sign in icon"
+          />
+        </Link>
         <img
           src="/fav-icon.png"
           className="h-10 hover:cursor-pointer hover:border p-2 rounded-lg"
