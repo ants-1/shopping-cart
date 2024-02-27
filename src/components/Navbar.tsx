@@ -26,11 +26,13 @@ function Navbar() {
             alt="Sign in icon"
           />
         </Link>
-        <img
-          src="/fav-icon.png"
-          className="h-10 hover:cursor-pointer hover:border p-2 rounded-lg"
-          alt="Favorite icon"
-        />
+        <Link to="/favorites">
+          <img
+            src="/fav-icon.png"
+            className="h-10 hover:cursor-pointer hover:border p-2 rounded-lg"
+            alt="Favorite icon"
+          />
+        </Link>
         <Link to="/cart">
           <img
             src="/cart-icon.png"

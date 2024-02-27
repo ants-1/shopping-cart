@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import { Link } from "react-router-dom";
 
 function Cart() {
   const bannerName: string = "Cart";
@@ -63,9 +64,11 @@ function Cart() {
                 <p className="mb-1 text-lg font-bold">£134.98</p>
               </div>
             </div>
-            <button className="mt-6 w-full rounded-md bg-yellow-600 text-white py-1.5 font-medium hover:bg-yellow-700">
-              Check out
-            </button>
+            <Link to="/checkout">
+              <button className="mt-6 w-full rounded-md bg-yellow-600 text-white py-1.5 font-medium hover:bg-yellow-700">
+                Checkout
+              </button>
+            </Link>
           </div>
         </div>
       </div>
